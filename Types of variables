@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+float a = 5.66;
+char b = 'A';
+int c = 7889;
+printf("The value of a is %f \n", a);
+printf("The value of b is %c \n", b);
+printf("The value of c is %d \n", c);
+return 0;
+}
