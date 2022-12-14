@@ -8,3 +8,16 @@ int main()
     printf("Converting celsius into fahrenheit %f ",far);
     return 0;
 }
+
+
+
+
+#include<stdio.h>
+int main()
+{
+    float celsius = 37, far;
+    far = (celsius * 9/5)+32;
+    printf("celsius to fahrenhiet %f",far);
+    
+    return 0;
+}
