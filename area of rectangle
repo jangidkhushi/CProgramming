@@ -12,3 +12,24 @@ int main()
     
     return 0;
 }
+
+
+
+
+
+#include<stdio.h>
+int main()
+
+{
+ 
+    int length,breadth;
+    printf("The value of length is \n");
+    scanf("%d",&length);
+    printf("The value of breadth is \n");
+    scanf("%d",&breadth);
+       int area= length*breadth;
+
+    printf("The area of rectangle is %d",area);
+    
+    return 0;
+}
