@@ -8,6 +8,28 @@ int main() {
         printf("A is an even number");
     }
     else 
-    printf("A is an odd number");
-     return 0;
+   {
+        printf("A is an odd number");
+    }
+    return 0;
+}
+
+
+
+
+
+#include <stdio.h>
+
+int main() {
+    int a;
+    printf("Enter a value \n");
+    scanf("%d",&a);
+    if (a%2==0){
+        printf("%d is an even number \n", a);
+    }
+    else 
+    printf("%d is an odd number \n", a);
+    
+
+    return 0;
 }
