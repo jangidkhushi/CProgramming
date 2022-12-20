@@ -21,3 +21,34 @@ int main() {
 
     return 0;
 }
+
+
+
+
+
+
+
+#include <stdio.h>
+
+int main() {
+  int Physics;
+  int Maths;
+  int Chemistry;
+  int a;
+  printf("Enter your Physics marks\n");
+  scanf("%d",&Physics);
+  printf("Enter your Maths marks\n");
+  scanf("%d",&Maths);
+  printf("Enter your Chemistry marks\n");
+  scanf("%d",&Chemistry);
+  a= (Physics+ Maths + Chemistry)/3;
+  if((a>=40) && (Physics>=33 && Chemistry>=33 && Maths>= 33))
+  {
+     printf("Your total percentage is %d and you passed the exam\n",a); 
+  }
+  else{
+      printf("Your total percentage is %d and you failed the exam\n",a);
+  }
+
+    return 0;
+}
